@@ -11,3 +11,4 @@ MAILER_SECRET_KEY=123456
 
 PROD=true
 ```
+3. Ejecutar el comando ```npm install```

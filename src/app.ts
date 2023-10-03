@@ -3,10 +3,10 @@ import { Server } from "./presentation/server"
 import { envs } from './config/plugins/envs.plugin'
 
 (async () => {
-    main()
+    await main()
 })()
 
-function main() {
-    // Server.run()
-    console.log(envs)
+async function main() {
+    Server.run()
+    // console.log(envs)
 }
